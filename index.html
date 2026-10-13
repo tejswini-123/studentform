@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<form>
+
+    <h1>Student Admission Form</h1>
+
+    <p class="subtitle">
+        Please fill in the details carefully
+    </p>
+
+    <h2>Personal Info</h2>
+
+    <fieldset>
+
+        <label>First Name</label>
+        <input type="text" placeholder="Enter first name">
+
+        <label>Last Name</label>
+        <input type="text" placeholder="Enter last name">
+
+        <label>Date of Birth</label>
+        <input type="date">
+
+        <label>Gender</label>
+
+        <p class="gender">
+            <label>
+                <input type="radio" name="gender">
+                Male
+            </label>
+
+            <label>
+                <input type="radio" name="gender">
+                Female
+            </label>
+
+            <label>
+                <input type="radio" name="gender">
+                Other
+            </label>
+        </p>
+
+    </fieldset>
+
+
+    <h2>Contact Info</h2>
+
+    <fieldset>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter email">
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter phone number">
+
+        <label>Address</label>
+        <textarea placeholder="Enter your address"></textarea>
+
+    </fieldset>
+
+
+    <h2>Academic Info</h2>
+
+    <fieldset>
+
+        <label>Select Course</label>
+
+        <select>
+            <option>Select Course</option>
+            <option>B.Tech</option>
+            <option>BCA</option>
+            <option>B.Sc</option>
+            <option>B.Com</option>
+            <option>MCA</option>
+            <option>MBA</option>
+        </select>
+
+        <label>Previous Qualification</label>
+
+        <input type="text" placeholder="Enter qualification">
+
+        <label>Upload Previous Certificate</label>
+
+        <input type="file">
+
+    </fieldset>
+
+
+    <p class="terms">
+
+        <label>
+            <input type="checkbox">
+            I confirm that the information provided above is correct.
+        </label>
+
+    </p>
+
+
+    <p class="button-group">
+
+        <button type="reset" class="reset-btn">
+            Reset
+        </button>
+
+        <button type="submit" class="submit-btn">
+            Submit
+        </button>
+
+    </p>
+
+</form>
+
+</body>
+
+</html>
